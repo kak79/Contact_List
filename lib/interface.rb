@@ -4,9 +4,9 @@ class Interface
   def initialize
       @input = ""
   end
-  
+
   def start
-    "Welcome to the Contact List"
+    puts "Welcome to the Contact List"
     menu
   end
 
@@ -15,11 +15,11 @@ class Interface
   end
 
   def menu
-    "Do you want to add a new contact?"
+    puts "Do you want to add a new contact?"
     input
-    "What is the first name of the contact?"
+    puts "What is the first name of the contact?"
     input
-    "What is the last name of the contact?"
+    puts "What is the last name of the contact?"
     input
     
   end
