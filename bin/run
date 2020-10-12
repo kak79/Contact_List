@@ -2,5 +2,6 @@
 
 require_relative '../config/env.rb'
 
-
+instance_of_contact_list = Interface.new
+instance_of_contact_list.start
 
